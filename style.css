@@ -1,0 +1,243 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    background-color: #F2F2F2;
+}
+img{
+    max-width: 100%;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    background-color: #303030;
+}
+
+.nav-ul{
+    display: flex;
+}
+
+.nav-ul li, a{
+    margin-right: 15px;
+    color: white;
+    list-style: none;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .9em;
+}
+.nav-ul>li>a:hover{
+    transition: .2s;
+    color: rgb(226, 221, 221);
+}
+
+/* texto sobre desconto que está acima do cabeçalho */
+
+.promacao{
+    background-color:#F5F5F7;
+}
+.promacao>p{
+    margin: 0;
+    text-align: center;
+}
+.promacao>p>a{
+    color: #4790D8;
+}
+/* fim */
+
+
+
+/* main com imagem do iPhone  e estilização*/
+.title-iphone{
+    display: grid;
+    background-color: #ffffff;
+}
+.conteiner-titulo , .figure-phone{
+    justify-self: center;
+}
+
+.conteiner-titulo>p+p{
+    text-align: center;
+    margin: 0 0 30px 0;
+    font-size: 3em;
+    font-weight: bold;
+    font-family: 'Vollkorn', serif;
+}
+.pro{
+    text-align: center;
+    font-size: 1.3em;
+    font-weight: 700;
+    margin: 100px 0 0 0;
+    
+}
+.bnt{
+    column-gap: 10px;
+    display: flex;
+    align-items: center;
+}
+.bnt li, a{
+    list-style: none;
+    text-decoration: none;;
+}
+.color-botom{
+    color: white;
+    margin: 10px;
+    font-family: 'Vollkorn', serif;
+    font-size: 1em;
+
+}
+.butom{
+    padding: 10px 30px 10px 30px;
+    border-radius: 10rem;
+    background-color: #0077ED;
+}
+.saber{
+    font-size: 1em;
+    font-family: 'Vollkorn', serif;
+    color: #4790D8;
+}
+
+.saber:hover{
+    text-decoration: underline;
+
+}
+/* proxima seção */
+.next-title-iphone{
+    display: grid;
+    background-color: #122239;
+}
+.yournew{
+    justify-self: center;
+}
+.yournew>ul ,li, a{
+    text-decoration: none;
+    list-style: none;
+}
+
+
+
+.flex-ul{
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+}
+
+
+
+
+.li-border{
+    background-color: #0077ED;
+    padding: 10px;
+    border-radius: 15em;
+}
+.li-border>a{
+    margin: 0 auto;
+    padding: 15px;
+    font-family: 'Vollkorn', serif;
+    font-size: 1.2em;
+}
+
+.fontsize{
+    font-size: 1.2em;
+}
+
+
+.color{
+    color: white;
+    font-weight: lighter;
+}
+.superpoder{
+    font-size: 3em;
+    font-weight: bold;
+    font-family: 'Vollkorn', serif;
+    margin: 0;
+    color: white;
+}
+.figures-flex{
+    display: flex;
+}
+.next-title-iphone>ul{
+    justify-self: center;
+}
+
+
+/* proxima seção de amostras do iphone */
+
+
+/* h2 'Qual é o iPhone ideal para você?' */
+.center-content{
+    margin: 0;
+    text-align: center;
+    font-size: 3em;
+    font-weight: bold;
+    font-family: 'Vollkorn', serif;
+    background-color: #ffffff;
+    padding: 100px;
+}
+
+
+
+/* end */
+.section-content-iphone{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    background-color: #ffffff;
+    
+}
+
+.device-content{
+   display: flex;
+   flex-direction: column; 
+}
+
+.device-content>figcaption, p, span{
+    font-size: .9em;
+    color: #000000;
+    margin: 0;
+    padding-top: .8em;
+    text-align: center;
+}
+.device-content>span{
+    margin-bottom: 10px;
+}
+.border-a{
+    padding: 5px;
+    background-color: #0077ED;
+    text-align: center;
+    border-radius: 5em;
+    max-width: 70px;
+    margin: 0 auto;
+    
+}
+
+/* acessorios-iphone */
+
+.cente-h2{
+    text-align: center; 
+    margin:50px 50px;
+    font-size: 3em;
+    font-family: 'Vollkorn', serif;
+}
+.device-acessorios-iphone{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #ffffff;
+}
+.macsface{
+    align-self: center;
+    text-align: center;
+    max-width: 300px;
+}
+.macsface>h3{
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 0;
+}
+.macsface>p{
+    margin-bottom: 10px;
+    font-size: 1em;
+}
+.macsface>a{
+    color: #0077ED;
+}
